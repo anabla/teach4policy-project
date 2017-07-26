@@ -1007,15 +1007,15 @@ ul.topaddres li span {
     left: 0;
     top: 0;
     content: "";
-    background: rgba(0, 0, 0, .75);
+    background: #f4f5f9;
 }
 
 .constructo-latest-news-section .section-title {
-    color: #fff
+    color: #6a6a6a;
 }
 
 .constructo-latest-news-section .section-title h2 {
-    color: #fff
+    color: #6a6a6a;
 }
 
 .single-news h3 {
