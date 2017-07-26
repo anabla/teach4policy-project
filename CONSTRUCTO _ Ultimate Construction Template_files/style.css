@@ -62,7 +62,14 @@ Version: 1.0
     margin-top: -2.5px;
     transform: rotateZ(45deg);
 }
-
+#banner{
+    background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(banner.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(banner.jpg);
+    background-size: cover; /* mundesohet qe te paraqitet figura komplete */
+    background-position: center; /* mundesohet qe te paraqitet figura ne mes te header  */
+     background-attachment: fixed;
+    height: 100vh; /* mundesohet qe te paraqitet figura 100% te pamjes*/
+}
 .single-input-searchbox input {
     background: transparent none repeat scroll 0 0;
     border: 0 none;
